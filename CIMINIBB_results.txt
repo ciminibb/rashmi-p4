@@ -55,3 +55,15 @@ Find the coldest day (column MIN) for the month of March across all years (2015-
 |72429793812|CINCINNATI MUNICI...|2016-03-02|26.1|
 +-----------+--------------------+----------+----+
 
+Find the year with the most precipitation for Cincinnati and Florida (Points: 1):
++--------------------+----+-------------------+
+|                NAME|YEAR| MEAN_PRECIPITATION|
++--------------------+----+-------------------+
+|CINCINNATI MUNICI...|2018|0.15789040991500633|
+|SEBASTIAN INLET S...|2020|                0.0|
++--------------------+----+-------------------+
+
+    NOTE: The 0.0 result for Florida is concerning. There is a rainy climate
+    statewide, so 0.0 seems to be a bad computation. However, this is a data
+    issue, not a computation issue. On inspecting the Florida datasets, none
+    have data for precipitation.
