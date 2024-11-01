@@ -118,3 +118,39 @@ Find the top 10 days with the lowest Wind Chill for Cincinnati in 2017 (Points: 
 |2017-01-05| 14.748862734421175|
 |2017-12-26| 15.688976894741815|
 +----------+-------------------+
+
+
+Investigate how many days had extreme weather conditions for Florida (fog, rain, snow, etc.) using the FRSHTT column (Points: 1).
++----+------+
+|DATE|FRSHTT|
++----+------+
++----+------+
+
+    NOTE: Despite the project instructions, there are NO RESULTS for extreme weather
+    at the Florida station. This claim is validated by running the same code on
+    the Cincinnati station. The Cincinnati results are given below.
+    +----------+------+
+    |      DATE|FRSHTT|
+    +----------+------+
+    |2016-01-04|001000|
+    |2016-01-08|010000|
+    |2016-01-09|100000|
+    |2016-01-10|111000|
+    |2016-01-11|001000|
+    |2016-01-12|001000|
+    |2016-01-15|010000|
+    |2016-01-17|001000|
+    |2016-01-19|001000|
+    |2016-01-20|001000|
+    |2016-01-22|001000|
+    |2016-01-23|001000|
+    |2016-01-26|010000|
+    |2016-01-29|010000|
+    |2016-02-01|010000|
+    |2016-02-02|010000|
+    |2016-02-03|010000|
+    |2016-02-06|100000|
+    |2016-02-08|011000|
+    |2016-02-09|001000|
+    +----------+------+
+    only showing top 20 rows
