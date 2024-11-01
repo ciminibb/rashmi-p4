@@ -23,3 +23,19 @@ Load the CSV files and display the count of each dataset (Points: 1):
 |2021_99495199999.csv|104  |
 +--------------------+-----+
 
+Find the hottest day (column MAX) for each year (Points: 1):
++-----------+--------------------+----------+-----+
+|    STATION|                NAME|      DATE|  MAX|
++-----------+--------------------+----------+-----+
+|72429793812|CINCINNATI MUNICI...|2024-08-30|100.9|
+|72429793812|CINCINNATI MUNICI...|2018-07-04| 96.1|
+|72429793812|CINCINNATI MUNICI...|2022-06-14| 96.1|
+|72429793812|CINCINNATI MUNICI...|2023-08-23| 96.1|
+|72429793812|CINCINNATI MUNICI...|2019-09-30| 95.0|
+|72429793812|CINCINNATI MUNICI...|2021-08-12| 95.0|
+|72429793812|CINCINNATI MUNICI...|2016-07-24| 93.9|
+|72429793812|CINCINNATI MUNICI...|2020-07-05| 93.9|
+|72429793812|CINCINNATI MUNICI...|2015-06-12| 91.9|
+|72429793812|CINCINNATI MUNICI...|2017-07-22| 91.9|
++-----------+--------------------+----------+-----+
+
