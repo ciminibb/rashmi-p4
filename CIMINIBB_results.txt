@@ -23,6 +23,7 @@ Load the CSV files and display the count of each dataset (Points: 1):
 |2021_99495199999.csv|104  |
 +--------------------+-----+
 
+
 Find the hottest day (column MAX) for each year (Points: 1):
 +-----------+--------------------+----------+-----+
 |    STATION|                NAME|      DATE|  MAX|
@@ -38,6 +39,7 @@ Find the hottest day (column MAX) for each year (Points: 1):
 |72429793812|CINCINNATI MUNICI...|2015-06-12| 91.9|
 |72429793812|CINCINNATI MUNICI...|2017-07-22| 91.9|
 +-----------+--------------------+----------+-----+
+
 
 Find the coldest day (column MIN) for the month of March across all years (2015-2024) (Points: 1):
 +-----------+--------------------+----------+----+
@@ -55,6 +57,7 @@ Find the coldest day (column MIN) for the month of March across all years (2015-
 |72429793812|CINCINNATI MUNICI...|2016-03-02|26.1|
 +-----------+--------------------+----------+----+
 
+
 Find the year with the most precipitation for Cincinnati and Florida (Points: 1):
 +--------------------+----+-------------------+
 |                NAME|YEAR| MEAN_PRECIPITATION|
@@ -68,6 +71,7 @@ Find the year with the most precipitation for Cincinnati and Florida (Points: 1)
     issue, not a computation issue. On inspecting the Florida datasets, none
     have data for precipitation.
 
+
 Count the percentage of missing values for wind gust (column GUST) for Cincinnati and Florida in the year 2024 (Points: 1):
 +--------------------+-----------------+
 |                NAME|        MISSING_%|
@@ -78,3 +82,23 @@ Count the percentage of missing values for wind gust (column GUST) for Cincinnat
 
     NOTE: This result reflects my decision to count the invalid 999.9 reading
     as missing data.
+
+
+Find the mean, median, mode, and standard deviation of the temperature (column TEMP) for Cincinnati in each month for the year 2020 (Points: 1):
++-----+------------------+-----------------+---------+------------------+
+|MONTH|         mean_temp|      median_temp|mode_temp|       stddev_temp|
++-----+------------------+-----------------+---------+------------------+
+|    1|37.945161081129505|37.70000076293945|     24.7| 8.345810838316384|
+|    2| 36.58965525133856|             36.0|     30.8| 7.901597947537755|
+|    3|  49.0741934007214|47.79999923706055|     47.8|  8.77940669347644|
+|    4| 51.77999992370606|51.10000038146973|     46.8|7.3131621276074465|
+|    5| 60.89032290058751|63.70000076293945|     73.9| 9.314768319579512|
+|    6| 72.54666570027669|73.94999694824219|     74.2|4.8999458590264515|
+|    7|  77.6000001968876| 77.9000015258789|     78.4| 2.337947626620972|
+|    8| 73.34516143798828|73.69999694824219|     67.4|3.4878690606063563|
+|    9| 66.09999961853028| 66.1500015258789|     72.7| 7.118261579669542|
+|   10| 55.19354851015152|             54.0|     61.6|6.7286914818367975|
+|   11| 48.00333340962728|47.70000076293945|     47.7| 6.825938707865554|
+|   12| 35.99354830095845|35.20000076293945|     37.4|6.6427872766495755|
++-----+------------------+-----------------+---------+------------------+
+
