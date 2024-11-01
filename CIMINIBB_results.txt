@@ -39,3 +39,19 @@ Find the hottest day (column MAX) for each year (Points: 1):
 |72429793812|CINCINNATI MUNICI...|2017-07-22| 91.9|
 +-----------+--------------------+----------+-----+
 
+Find the coldest day (column MIN) for the month of March across all years (2015-2024) (Points: 1):
++-----------+--------------------+----------+----+
+|    STATION|                NAME|      DATE| MIN|
++-----------+--------------------+----------+----+
+|72429793812|CINCINNATI MUNICI...|2015-03-06| 3.2|
+|72429793812|CINCINNATI MUNICI...|2019-03-05|10.0|
+|72429793812|CINCINNATI MUNICI...|2023-03-15|17.1|
+|72429793812|CINCINNATI MUNICI...|2022-03-13|18.0|
+|72429793812|CINCINNATI MUNICI...|2017-03-15|19.0|
+|72429793812|CINCINNATI MUNICI...|2020-03-01|19.0|
+|72429793812|CINCINNATI MUNICI...|2018-03-22|21.0|
+|72429793812|CINCINNATI MUNICI...|2024-03-01|23.0|
+|72429793812|CINCINNATI MUNICI...|2021-03-02|24.1|
+|72429793812|CINCINNATI MUNICI...|2016-03-02|26.1|
++-----------+--------------------+----------+----+
+
