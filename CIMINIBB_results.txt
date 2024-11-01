@@ -67,3 +67,14 @@ Find the year with the most precipitation for Cincinnati and Florida (Points: 1)
     statewide, so 0.0 seems to be a bad computation. However, this is a data
     issue, not a computation issue. On inspecting the Florida datasets, none
     have data for precipitation.
+
+Count the percentage of missing values for wind gust (column GUST) for Cincinnati and Florida in the year 2024 (Points: 1):
++--------------------+-----------------+
+|                NAME|        MISSING_%|
++--------------------+-----------------+
+|CINCINNATI MUNICI...|39.53488372093023|
+|SEBASTIAN INLET S...|            100.0|
++--------------------+-----------------+
+
+    NOTE: This result reflects my decision to count the invalid 999.9 reading
+    as missing data.
