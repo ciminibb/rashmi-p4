@@ -154,3 +154,14 @@ Investigate how many days had extreme weather conditions for Florida (fog, rain,
     |2016-02-09|001000|
     +----------+------+
     only showing top 20 rows
+
+
+Predict the maximum Temperature for Cincinnati for November and December 2024, based on the previous 2 years of weather data (Points: 1):
++-----+----------------------+
+|MONTH|PREDICTED_HIGHEST_TEMP|
++-----+----------------------+
+|   11|             84.299995|
+|   12|                  62.0|
++-----+----------------------+
+
+    NOTE: Extensive discussion in submission document!
